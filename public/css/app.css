@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.greenBtn {
+  color: white;
+  background-color: #61ce4e;
+  padding: 10px 32px;
+  border-radius: 5px;
+}
+
+a {
+  color: #1b3c59;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #1b3c59;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+body header img {
+  height: 60px;
+}
+
+body header nav {
+  display: flex;
+  align-items: center;
+}
+
+body header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+body header nav ul li {
+  margin: 0 25px;
+}
+
+body header nav ul li a {
+  height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body main .wrapper60 {
+  width: 60%;
+  margin: auto;
+}
+
+body main .wrapper60 > * {
+  margin: 15px 0;
+}
+
+body main .jumbotron {
+  margin: 80px auto;
+  width: 1100px;
+  display: flex;
+}
+
+body main .jumbotron .jumboLeft {
+  flex-basis: 50%;
+}
+
+body main .jumbotron .jumboLeft h1 {
+  text-transform: uppercase;
+  font-size: 58px;
+  font-weight: normal;
+}
+
+body main .jumbotron .jumboLeft h1 .bold {
+  font-weight: bolder;
+}
+
+body main .jumbotron .jumboLeft h2 {
+  margin: 25px 0;
+}
+
+body main .jumbotron .jumboRight {
+  flex-basis: 50%;
+}
+
+body main .jumbotron .jumboRight img {
+  max-width: 90%;
+}
+
+body main .privacy {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+}
+
