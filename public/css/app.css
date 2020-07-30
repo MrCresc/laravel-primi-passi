@@ -61,6 +61,40 @@ body main .wrapper60 > * {
   margin: 15px 0;
 }
 
+body main .faqSection {
+  padding: 25px 50px;
+}
+
+body main .faqSection > * {
+  margin: 15px 0;
+}
+
+body main .faqContainer {
+  display: flex;
+}
+
+body main .faqContainer .rightFaq {
+  color: white;
+  background-color: #1b3c59;
+}
+
+body main .faqContainer .leftFaq,
+body main .faqContainer .rightFaq {
+  flex-basis: 50%;
+  margin: 20px 30px;
+  padding: 25px;
+}
+
+body main .faqContainer .leftFaq h2,
+body main .faqContainer .rightFaq h2 {
+  padding-top: 25px;
+}
+
+body main .faqContainer .leftFaq > *,
+body main .faqContainer .rightFaq > * {
+  margin: 15px 0;
+}
+
 body main .jumbotron {
   margin: 80px auto;
   width: 1100px;
@@ -91,11 +125,5 @@ body main .jumbotron .jumboRight {
 
 body main .jumbotron .jumboRight img {
   max-width: 90%;
-}
-
-body main .privacy {
-  font-size: 50px;
-  display: block;
-  text-align: center;
 }
 

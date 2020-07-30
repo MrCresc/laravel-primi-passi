@@ -7,8 +7,8 @@
       <li><a href="{{ route('index') }}">home</a></li>
       <li><a href="#">corso</a></li>
       <li><a href="#">dopo il corso</a></li>
-      <li><a href="#">lezione gratuita</a></li>
-      <li><a href="#">assumi i nostri studenti</a></li>
+      <li><a href="{{ route('privacy') }}">Privacy policy</a></li>
+      <li><a href="{{ route('faq') }}">FAQ</a></li>
       <li><a class="greenBtn" href="#">candidati ora</a></li>
     </ul>
   </nav>
